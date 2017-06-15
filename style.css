@@ -174,7 +174,7 @@ nav ul{
   text-align: right;
   overflow: auto;
   width: 100%;
-  border-radius: 10px 10px 10px 10px;
+  
 }
 
 nav ul li{
@@ -198,6 +198,26 @@ nav a{
 
 nav a:hover{
   color: orange;
+}
+
+.reg {
+    margin-top: 10px;
+}
+
+.reg li {
+    background-color: aliceblue;
+}
+
+.reg li a {
+    color: black;
+}
+
+.reg li a:hover {
+    color: white;
+}
+
+.reg li:hover {
+    background-color: orangered;
 }
 
 .logo-name {
@@ -421,6 +441,21 @@ input {
     position: relative;
 }
 
+.social-login-title {
+    color: white;
+    border: 1px solid  #ccc;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    width: 93%;
+    margin-left: 15px;
+}
+
+
+.reg-block {
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
 
 
 
@@ -606,6 +641,11 @@ input {
         margin-top: 10px;
         margin-left: 20px;
     }
+    
+    .reg-block {
+    margin-top: -5px;
+        width: 100%;
+}
 
 
 }
@@ -689,6 +729,8 @@ input {
         margin-top: 10px;
         margin-left: 20px;
     }
+    
+    
 }
 
 /* Custom Breakpoints */
@@ -759,6 +801,14 @@ input {
     border-radius: 10px 10px 10px 10px;
     background-color: #3C444B;
 }
+    .reg-block {
+    margin-bottom: 20px;
+}
+    
+    .reg-block-items {
+        text-align: center;
+        margin-left: 130px;
+    }
 }
 
 
@@ -892,6 +942,14 @@ input {
 
 }
 
+    .reg-block {
+    margin-bottom: 20px;
+}
+    
+    .reg-block-items {
+        text-align: center;
+        margin-left: 170px;
+    }
 
 
 
