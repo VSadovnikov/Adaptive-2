@@ -202,6 +202,7 @@ nav a:hover{
 
 .reg {
     margin-top: 10px;
+    margin-left:8px;
 }
 
 .reg li {
@@ -457,6 +458,11 @@ input {
     margin-bottom: 20px;
 }
 
+.reg-block h1 {
+    margin-left: 220px;
+}
+
+
 
 
 
@@ -604,7 +610,7 @@ input {
 
 }
 
-.
+
 
 .aside-search-list {
         margin-top:10px;
@@ -645,6 +651,11 @@ input {
     .reg-block {
     margin-top: -5px;
         width: 100%;
+}
+
+.reg {
+    margin-top: 10px;
+    margin-left:0;
 }
 
 
@@ -729,6 +740,15 @@ input {
         margin-top: 10px;
         margin-left: 20px;
     }
+
+    .reg {
+    margin-top: 10px;
+    margin-left:0;
+}
+
+.reg-block h1 {
+    margin-left: 20px;
+}
     
     
 }
@@ -745,6 +765,9 @@ input {
     border: 1px solid #ccc;
     border-radius: 10px 10px 10px 10px;
     background-color: #3C444B;
+}
+.reg-block h1 {
+    margin-left: 10px;
 }
 
 }
@@ -775,6 +798,20 @@ input {
     background-color: #3C444B;
     }
 
+    .reg-block {
+    margin-bottom: 30px;
+    
+}
+
+.reg-block h1 {
+    margin-left: 10px;
+}
+    
+    .reg-block-items {
+        margin-left: 190px;
+        
+    }
+
 }
 
 @media screen and  (max-width: 1024px) and (min-width:736px) and (orientation:landscape) {
@@ -801,14 +838,22 @@ input {
     border-radius: 10px 10px 10px 10px;
     background-color: #3C444B;
 }
-    .reg-block {
-    margin-bottom: 20px;
+
+
+    .reg {
+    margin-top: 10px;
+    margin-left:8px;
+}
+
+.reg-block {
+    margin-bottom: 30px;
 }
     
     .reg-block-items {
-        text-align: center;
-        margin-left: 130px;
+        margin-left: 150px;
+        
     }
+
 }
 
 
@@ -882,6 +927,11 @@ input {
         margin-bottom: 10px;
     }
 
+    .reg {
+    margin-top: 10px;
+    margin-left:0;
+}
+
 
 
 }
@@ -944,12 +994,18 @@ input {
 
     .reg-block {
     margin-bottom: 20px;
+    
 }
     
     .reg-block-items {
-        text-align: center;
+        width: 100%;
         margin-left: 170px;
     }
+
+    .reg {
+    margin-top: 10px;
+    margin-left:8px;
+}
 
 
 
@@ -1011,6 +1067,11 @@ input {
 
 }
 
+.reg {
+    margin-top: 10px;
+    margin-left:8px;
+}
+
 }
 
 @media screen and  (max-width:412px) and (orientation:portrait) {
@@ -1067,6 +1128,15 @@ input {
     border-radius: 10px 10px 10px 10px;
     background-color: #3C444B;
 
+}
+
+.reg {
+    margin-top: 10px;
+    margin-left:0;
+}
+
+.reg-block h1 {
+    margin-left: 1px;
 }
 
 }
@@ -1126,6 +1196,20 @@ input {
     background-color: #3C444B;
 
 }
+.reg {
+    margin-top: 10px;
+    margin-left:0;
+}
+
+ .reg-block {
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+    
+    .reg-block-items {
+        width: 100%;
+        
+    }
 
 }
 
@@ -1185,6 +1269,16 @@ input {
 
 }
 
+.reg-block {
+    margin-bottom: 30px;
+}
+    
+    .reg-block-items {
+        margin-left: -10px;
+        
+    }
+
+
 }
 
 @media screen and  (max-width:414px) and (orientation:portrait) {
@@ -1242,6 +1336,101 @@ input {
     background-color: #3C444B;
 
 }
+
+.reg {
+    margin-top: 10px;
+    margin-left:0;
+}
+
+}
+
+@media screen and  (max-width:568px) and (orientation:landscape) {
+ .reg {
+    margin-top: 10px;
+    margin-left:8px;
+}
+
+.reg-block {
+    margin-bottom: 30px;
+}
+    
+    .reg-block-items {
+        margin-left: 100px;
+        
+    }
+
+}
+}
+
+@media screen and  (max-width:732px) and (orientation:landscape) {
+
+.aside-list-item {
+ text-align: center;
+ width: 90%;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin-left: 50px;
+    border: 1px solid #ccc;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #3C444B;
+}
+    .search-section {
+    width: 93%;
+    margin-left: 37px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+
+
+}
+
+.search-list-item {
+    text-align: center;
+    width: 95%;
+    margin-left: -25px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #3C444B;
+    text-decoration: none;
+}
+
+    .search-list-item input {
+    text-align: center;
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px 10px 10px 10px;
+    text-decoration: none;
+}
+
+.search-list-item-btn {
+    text-align: center;
+    width: 90%;
+    margin-left: -20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #3C444B;
+
+}
+
+.reg {
+    margin-top: 10px;
+    margin-left:8px;
+}
+
+.reg-block {
+    margin-bottom: 30px;
+}
+    
+    .reg-block-items {
+        margin-left: 160px;
+        
+    }
 
 }
 
