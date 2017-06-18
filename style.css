@@ -201,8 +201,10 @@ nav a:hover{
 }
 
 .reg {
-    margin-top: 10px;
-    margin-left:8px;
+    margin-top: 20px;
+    padding-left: 10px;
+    margin-left: 10px;
+
 }
 
 .reg li {
@@ -283,7 +285,7 @@ nav a:hover{
  width: 90%;
     margin-left: 30px;
     margin-bottom: 20px;
-    padding: 10px;
+    padding: 15px;
     border: 1px solid #ccc;
     border-radius: 10px 10px 10px 10px;
     background-color: #3C444B;
@@ -581,9 +583,6 @@ input {
  background-color: orange;
 }
 
-    .aside-search-list {
-
-    }
 
     .search-section {
     width: 90%;
@@ -655,8 +654,10 @@ input {
 
 .reg {
     margin-top: 10px;
-    margin-left:0;
+    margin-left:-8px;
+    padding-left: 0;
 }
+
 
 
 }
@@ -744,6 +745,7 @@ input {
     .reg {
     margin-top: 10px;
     margin-left:0;
+    padding-left: 0;
 }
 
 .reg-block h1 {
@@ -843,6 +845,7 @@ input {
     .reg {
     margin-top: 10px;
     margin-left:8px;
+    padding-left: 0;
 }
 
 .reg-block {
@@ -930,6 +933,7 @@ input {
     .reg {
     margin-top: 10px;
     margin-left:0;
+    padding-left: 0;
 }
 
 
@@ -950,8 +954,8 @@ input {
 }
     .search-section {
     width: 93%;
-    margin-left: 30px;
-    margin-top: 10px;
+    margin-left: 70px;
+    margin-top: -10px;
     margin-bottom: 20px;
     padding-top: 20px;
 
@@ -1070,6 +1074,7 @@ input {
 .reg {
     margin-top: 10px;
     margin-left:8px;
+    padding-left: 0;
 }
 
 }
@@ -1199,6 +1204,7 @@ input {
 .reg {
     margin-top: 10px;
     margin-left:0;
+    padding-left: 0;
 }
 
  .reg-block {
@@ -1295,8 +1301,8 @@ input {
 }
     .search-section {
     width: 93%;
-    margin-left: 37px;
-    margin-top: 10px;
+    margin-left: 52px;
+    margin-top: -20px;
     margin-bottom: 20px;
     padding-top: 20px;
 
@@ -1340,6 +1346,7 @@ input {
 .reg {
     margin-top: 10px;
     margin-left:0;
+    padding-left: 0;
 }
 
 }
@@ -1360,7 +1367,7 @@ input {
     }
 
 }
-}
+
 
 @media screen and  (max-width:732px) and (orientation:landscape) {
 
@@ -1376,8 +1383,8 @@ input {
 }
     .search-section {
     width: 93%;
-    margin-left: 37px;
-    margin-top: 10px;
+    margin-left: 57px;
+    margin-top: -20px;
     margin-bottom: 20px;
     padding-top: 20px;
 
@@ -1421,6 +1428,7 @@ input {
 .reg {
     margin-top: 10px;
     margin-left:8px;
+    padding-left: 0;
 }
 
 .reg-block {
